@@ -1,0 +1,12 @@
+
+
+sudo apt update
+sudo apt update
+
+# Se pueden borrar claves de repositorios si da fallo
+sudo rm /etc/apt/trusted.gpg
+
+# Instalar "drivers"
+sudo apt install iwlwifi
+
+sudo reboot now
